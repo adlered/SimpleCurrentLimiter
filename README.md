@@ -61,7 +61,7 @@ IP Access: 127.0.0.1, passed: false
 
 `127.0.0.1`在2秒内访问了2次，第一次返回`true`即通过，第二次会被拒绝，返回`false`。
 
-`1.1.1.1`在2秒内只有一次访问，所以直接返回`true`。
+`1.1.1.1`在2秒内只有1次访问，所以直接返回`true`。
 
 # English
 
@@ -126,4 +126,4 @@ IP Access: 127.0.0.1, passed: false
 
 `127.0.0.1` has been accessed 2 times in 2 seconds, the first time to return `true` is passed, the second time will be rejected, return `false`.
 
-`1.1.1.1` has only one access in 2 seconds, so return `true` directly.
+`1.1.1.1` has only 1 access in 2 seconds, so return `true` directly.
