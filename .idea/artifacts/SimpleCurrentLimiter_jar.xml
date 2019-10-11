@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SimpleCurrentLimiter:jar">
+    <output-path>$PROJECT_DIR$/release</output-path>
+    <root id="archive" name="SimpleCurrentLimiter.jar">
+      <element id="module-output" name="SimpleCurrentLimiter" />
+    </root>
+  </artifact>
+</component>

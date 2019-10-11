@@ -38,7 +38,6 @@ public class MainControl extends MainCache {
         CachePair newPair = new CachePair();
         newPair.setFrequency(frequency);
         newPair.setTimeStamp(timeStamp);
-        System.out.println("str: " + str + "\nfreq: " + newPair.getFrequency() + "\ntimestamp: " + newPair.getTimeStamp());
         this.cachePairMap.put(str, newPair);
         return isOK;
     }
